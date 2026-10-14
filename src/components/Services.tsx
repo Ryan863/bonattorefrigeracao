@@ -10,22 +10,22 @@ const cards = [
     tag: "Câmaras & túneis",
     title: "Montagem de câmaras & túneis",
     text: "Projetos personalizados, túneis de congelamento rápido, ultrafreezers e câmaras para vacinas — com estanqueidade perfeita.",
-    src: "/images/hero-desktop.png",
-    pos: "40% 55%",
+    src: "/images/card-camaras.jpg",
+    pos: "center",
   },
   {
     tag: "Climatização",
     title: "Climatização central & chillers",
     text: "Instalação e manutenção de sistemas térmicos e de ventilação para grandes ambientes corporativos, comerciais e industriais.",
-    src: "/images/hero-desktop.png",
-    pos: "8% 30%",
+    src: "/images/card-climatizacao.jpg",
+    pos: "center",
   },
   {
     tag: "Loja & oficina",
     title: "Loja de peças & oficina própria",
     text: "Compressores e peças a pronta-entrega, manutenção ágil em bancada e suporte resolutivo para qualquer complexidade.",
-    src: "/images/hero-desktop.png",
-    pos: "92% 60%",
+    src: "/images/card-oficina.jpg",
+    pos: "center",
   },
 ];
 

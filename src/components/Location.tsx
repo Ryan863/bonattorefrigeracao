@@ -2,7 +2,7 @@ import { MapPin, Phone, Clock, MessageCircle, Navigation } from "lucide-react";
 import { SITE, WA_TRIAGE, WA_URGENT } from "@/lib/constants";
 
 const rows = [
-  { icon: MapPin, label: "Endereço", value: `${SITE.address}\n${SITE.city}`, sub: `Plus Code: ${SITE.plusCode}` },
+  { icon: MapPin, label: "Endereço", value: `${SITE.address}\n${SITE.city}` },
   { icon: Phone, label: "Telefone fixo", value: SITE.phone, href: SITE.phoneHref },
   { icon: MessageCircle, label: "WhatsApp comercial", value: SITE.whatsapp, href: WA_URGENT },
   { icon: Clock, label: "Atendimento", value: SITE.hours },
@@ -32,7 +32,6 @@ export function Location() {
                       r.value
                     )}
                   </dd>
-                  {r.sub && <p className="mt-1 font-mono text-xs text-muted">{r.sub}</p>}
                 </div>
               </div>
             ))}

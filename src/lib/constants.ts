@@ -21,7 +21,6 @@ export const SITE = {
   instagramHandle: "@bonattorefrigeracao",
   address: "Rua Calábria, 21 – Bairro Colinas",
   city: "Concórdia – SC, CEP 89700-480",
-  plusCode: "QX9H+HH Concórdia, Santa Catarina",
   mapsHref:
     "https://www.google.com/maps/search/?api=1&query=Bonatto+Refrigera%C3%A7%C3%A3o+Rua+Cal%C3%A1bria+21+Conc%C3%B3rdia+SC",
   mapsEmbed:
